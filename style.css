@@ -1,0 +1,75 @@
+.title {
+    background-color: rgba(0, 128, 0, 0.291);
+    padding: 20px;
+    text-align: center;
+    color: rgba(255, 166, 0, 0.955);
+
+}
+
+#body {
+    background-color: rgba(255, 166, 0, 0.075);
+}
+
+#intro {
+    border-bottom: 1px solid green;
+    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-bottom: 40px;
+}
+
+.page-layout {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.restaurant {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    align-items: flex-start;
+
+}
+
+.dish-images {
+    object-fit: cover;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+
+
+}
+
+.restaurant article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 10x;
+    text-align: center;
+
+}
+
+.aisle {
+    padding: 10px;
+    flex: 1;
+    background-color: rgba(0, 128, 0, 0.137);
+    border-left: 1px solid green;
+    border-right:1px solid green;
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+}
+
+.images {
+    height: 300px;
+    width: 400px;
+}
+
+.footer{
+    border-top:1px solid green;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.291);
+}
