@@ -1,3 +1,4 @@
+"use strict";
 
 // Select all buttons
 const button = document.querySelectorAll("button");
