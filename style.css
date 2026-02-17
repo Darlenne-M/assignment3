@@ -102,3 +102,15 @@ article.highlighted{
     text-align: center;
     background-color: rgba(0, 128, 0, 0.291);
 }
+
+.button{
+    color: white;
+    background-color:green;
+    border: #ffcc00;
+    border-left: 5px solid green;
+    border-right:5px solid green;
+    border-top: 5px solid green;
+    border-bottom: 5px solid green;
+    margin-bottom: 50px;
+    
+}
