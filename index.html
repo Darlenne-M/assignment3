@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 
 </head>
 
@@ -28,7 +29,9 @@
     </section>
 
     <div class="page-layout">
+
         <main id="main">
+
             <h3>Old Town Draught House</h3>
 
             <section class="restaurant">
@@ -39,8 +42,10 @@
                     <img class="dish-images" src="images/dish1a.jpg">
                     <h4>CHILI</h4>
                     <p>Chili
-                        Cup 5.00, Bowl 8.00
                         House-made, topped with cheddar, sour cream, scallions</p>
+                    <p class="price">$7.00</p>
+                    <button class="button">Add to Favorites</button>
+
                 </article>
 
                 <article>
@@ -48,6 +53,9 @@
                     <h4>TRIPLE ONION</h4>
                     <p>Classic
                         Cheddar, lettuce, tomato, onion, mayo & pickles</p>
+                    <p class="price">$13.50</p>
+                    <button class="button">Add to Favorites</button>
+
                 </article>
 
                 <article>
@@ -55,7 +63,11 @@
                     <h4>CAESAR SALAD</h4>
                     <p>Classic
                         Cheddar, lettuce, tomato, onion, mayo & pickles</p>
+                    <p class="price">$9.00</p>
+                    <button class="button">Add to Favorites</button>
+
                 </article>
+
 
             </section>
 
@@ -70,6 +82,8 @@
                     <h4>EDAMAME</h4>
                     <p>Steamed soybeans sprinkled with salt.
                     </p>
+                    <p class="price">$3.99</p>
+                    <button class="button">Add to Favorites</button>
                 </article>
 
                 <article>
@@ -80,6 +94,8 @@
                         marinated ribeye with Jasmine rice, fresh vegetables, and fried egg topped with sesame seeds and
                         a
                         cucumber garnish</p>
+                    <p class="price">$15.95</p>
+                    <button class="button">Add to Favorites</button>
                 </article>
 
                 <article>
@@ -89,6 +105,8 @@
                         Two traditional soft and fluffy Korean donuts coated with cinnamon and sugar on the outside,
                         served
                         with a sweet cream dipping sauce.</p>
+                    <p class="price">$8.50</p>
+                    <button class="button">Add to Favorites</button>
                 </article>
 
             </section>
@@ -104,8 +122,9 @@
                     <h4>ELOTES</h4>
                     <p>Roasted corn on the cob brushed with mayo, rolled in cotija cheese,
                         and dusted in cayenne-paprika, served with lime wedge.
-
                     </p>
+                    <p class="price">$6.00</p>
+                    <button class="button">Add to Favorites</button>
                 </article>
 
                 <article>
@@ -114,24 +133,38 @@
                     <p>Braised beef, grilled pineapple, spicy sweet chili sauce, coconut aioli,
                         cilantro, and scallions.
                     </p>
+                    <p class="price">$14.95</p>
+                    <button class="button">Add to Favorites</button>
                 </article>
 
                 <article>
                     <img class="dish-images" src="images/dish3c.jpg">
                     <h4>HOUSE SALAD</h4>
                     <p>Lettuce, cucumber, tomato, onion, shredded cheese, and crumbled flour tortilla chips.</p>
+                    <p class="price">$10.99</p>
+                    <button class="button">Add to Favorites</button>
                 </article>
             </section>
         </main>
 
-        <aside class="aisle">
-            <h3 class="title">UNCG Dining Tip</h3>
-            <p> Many dining locations around campus accept Flex Dollars, making it easy to grab food
-                between classes without carrying cash. Some of my favorite spots are perfect for quick
-                meals or late-night cravings, especially during busy exam weeks.</p>
+        <div class="sidebar">
+            <aside class="aisle1">
+                <h3 class="asile-title">UNCG Dining Tip</h3>
+                <p> Many dining locations around campus accept Flex Dollars, making it easy to grab food
+                    between classes without carrying cash. Some of my favorite spots are perfect for quick
+                    meals or late-night cravings, especially during busy exam weeks.</p>
 
-        </aside>
+            </aside>
+
+        </div>
+
     </div>
+
+
+    <section class="favorites-summary">
+        <h3 class="asile-title">Favorites Summary</h3>
+        <ul id="favorites-list"></ul>
+    </section>
 
     <footer class="footer">
         <p>Instagram: @campusbites</p>
