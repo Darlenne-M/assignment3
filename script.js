@@ -9,11 +9,9 @@ const favoritesList = document.querySelector("#favorites-list");
 const totalElement = document.querySelector("#total");
 let total = 0;
 
-button.forEach(AddEventListener);
-
-function AddEventListener(btn) {
+button.forEach(function AddEventListener(btn) {
     btn.addEventListener("click", buttonFunction)
-}
+});
 
 function buttonFunction(event) {
 
